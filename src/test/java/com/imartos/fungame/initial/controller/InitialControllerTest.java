@@ -38,12 +38,6 @@ public class InitialControllerTest {
 		mvc = MockMvcBuilders.standaloneSetup(initialController).build();
 	}
 
-	//	@Test
-	//	public void getHello() throws Exception {
-	//		mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk()).andExpect(
-	//				content().string(equalTo("Hello world")));
-	//	}
-
 	@Test
 	public void getHello() throws Exception {
 		String anyResultString = "ANY RESULT STRING";
